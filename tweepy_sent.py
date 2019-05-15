@@ -26,17 +26,12 @@ ch = logging.StreamHandler()
 ch.setLevel(logging.INFO) # or any other level
 logger.addHandler(ch)
 
+#twwepy credentials
 
-#consumer_key = "fdK3zTcrBkysSiThxOdZiNgts"
-#consumer_secret = "W07P3EYJ2vGnIWhxa1qIMXT1AHj7WQNycjsCryXBqcxkNmUqhu"
-#access_token = "331376208-og6EbhlyYujoHq8xEFu0qjcMRIpqNgfw8DqlMDKs"
-#access_token_secret = "lBWeeU9zT2QaO6ljCFjq76NlRoLmLe24QP9L5f2Mztc5o"
-
-
-consumer_key = "FGCb32sojj2PCdLUpXlY646rj"
-consumer_secret = "iLTN0ntuFwkAoh1UhS6h0qAQ1qTltPfv8UXUGm1FMhVdQWTtVr"
-access_token = "158696903-wgUGwEenBpPkNxLCOkPKQz3mNmwc3qRSJvx49SH0"
-access_token_secret = "j6ns8AKKf30EknYkaonHr82bf4H6oDYdCH1uAmbwVnX27"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
